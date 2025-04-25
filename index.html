@@ -4,6 +4,7 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Antony Spin Cursor & Click</title>
+    <link rel="icon" href="logo-ManUnited.png" type="image/x-icon">
     <script src="https://cdn.tailwindcss.com"></script>
     <link rel="stylesheet" href="style.css">
     
@@ -20,15 +21,19 @@
             Ruszaj myszką, a zobaczysz Antony'ego wirującego jako kursor! Kliknij obrazek, aby zakręcić!
         </p>
 
-        <div class="image-container">
-            <img id="main-antony-image"
-                 src="antony.jpg"
-                 alt="Antony z Manchester United wykonujący swój charakterystyczny obrót"
-                 class="main-image"
+        <div class="video-container">
+            <video id="main-antony-video" class="main-video" src="AntonyVideo.mp4" autoplay muted loop playsinline></video>
+        </div>
+        <div class="flex justify-center items-center mt-4">
+            <button id="toggle-audio-button" class="justify-center items-center mt-4 px-6 py-2 bg-red-600 text-white font-semibold rounded-lg shadow-md hover:bg-red-700 focus:outline-none focus:ring-2 focus:ring-red-500 focus:ring-opacity-50">
+                Włącz dźwięk
+            </button>
         </div>
     </div>
 
+    
     <script src="script.js"></script>
 
 </body>
 </html>
+

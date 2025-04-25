@@ -52,27 +52,24 @@ body {
     animation: spin-main-image 1s ease-out 1;
 }
 
-.image-container {
+.video-container {
     display: flex;
     justify-content: center;
     align-items: center;
     padding: 2rem;
-    cursor: pointer;
+    cursor: none;
 }
 
-.main-image {
+video.main-video {
     max-width: 90%;
-    width: 100%;
     max-height: 60vh;
-    object-fit: contain;
     border-radius: 0.75rem;
     box-shadow: 0 10px 20px rgba(0, 0, 0, 0.1);
-    transition: transform 0.3s ease;
+    
 }
 
-.main-image:hover {
-    transform: scale(1.03);
-}
+
+
 
 
 @media (min-width: 768px) {
