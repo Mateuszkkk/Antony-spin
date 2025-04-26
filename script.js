@@ -69,7 +69,7 @@ if (audioButton && video) {
             audioButton.disabled = true; 
             
             audioButton.classList.remove('bg-red-600', 'hover:bg-red-700', 'focus:ring-red-500', 'focus:ring-opacity-50');
-            audioButton.classList.add('bg-gray-400', 'cursor-not-allowed');
+            audioButton.classList.add('bg-gray-400');
             
         }
     });
